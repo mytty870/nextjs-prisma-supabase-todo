@@ -5,7 +5,7 @@ export const CreateTodoForm = () => {
   return (
       <form action={addTodo}>
         <div className="flex items-center justify-center space-x-3">
-        <input required placeholder="TODO を入力" type="text" className="max-w-sm mb-5 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:border-blue-500 block w-full p-2 cursor-not-allowed" defaultValue="" />
+        <input required placeholder="TODO を入力" type="text" className="align-middle max-w-sm mb-5 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:border-blue-500 block w-full p-2 cursor-not-allowed" defaultValue="" />
         <button
           type="submit"
           className="px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg cursor-pointer hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
